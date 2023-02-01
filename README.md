@@ -64,6 +64,9 @@ Direct your browser to "http://localhost:3001/"
 
 ## Screenshot
 
+Heroku Deployed Application:
+(https://quiet-meadow-92526.herokuapp.com/)
+
 ![screenshot](./assets/tech-talk-screenshot.png)
 
 ## License
