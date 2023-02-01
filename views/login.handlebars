@@ -1,19 +1,17 @@
 <div class="card">
-  <div class="card-header">
-    <h2>Login</h2>
-  </div>
-  <form id="login-form" class="card-body">
-    <div>
-      <label for="username-input-login">Username</label>
-      <input type="text" id="username-input-login" />
-    </div>
-    <div>
-      <label for="password-input-login" class="form-label">Password</label>
-      <input type="password" id="password-input-login" />
-    </div>
-    <button type="submit" id="login-btn" class="btn">Login!</button>
-    <a type="button" href="/signup">Sign up instead</a>
-  </form>
+  <h2 class="title pb-4 post-title">Log In</h2>
+    <form id="login-form" class="card-body">
+      <div class="form-row">
+        <label class="form-label" for="username-login">Username</label>
+        <input  id="username-login" type="text" autofocus="true" class="form-input form-control"/>
+      </div>
+      <div class="form-row mb-3">
+        <label class="form-label" for="password-login">Password</label>
+        <input id="password-login" type="password" autofocus="true" class="form-input form-control"/>
+      </div class="login-signup">
+        <button type="submit" class="btn login-button" style="background: var(--blue-gray); color: var(--light-gray);">Login</button>
+        <a class="btn login-link signup-button" href="/signup" style="background: var(--blue-gray); color: var(--light-gray);">Sign Up</a>
+    </form>
 </div>
-
-<script src="/javascript/login.js"></script>
+   
+<script src="/js/login.js"></script>
